@@ -8,6 +8,10 @@ def min_sum_sub_array(nums:list, target_sum)->int:
     Input: [2, 1, 5, 2, 3, 2], S=7 
     Output: 2
     Explanation: The smallest subarray with a sum great than or equal to '7' is [5, 2].
+
+    Time Complexity: O(n)
+    The inner loop run only within a fixed size subarray
+    Space Complexity: O(1)
     """
 
     min_len = math.inf
