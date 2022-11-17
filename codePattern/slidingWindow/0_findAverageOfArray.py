@@ -48,6 +48,7 @@ def find_average_array_slide(nums:list, k:int)->list[int]:
 
         endWindow = current_index
 
+        # keep the window size within given k size.
         if endWindow+1 >= k:
             # calculate the average of subarray 
             averages.append(totalSum/k)
