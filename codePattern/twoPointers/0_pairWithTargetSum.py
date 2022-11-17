@@ -11,6 +11,12 @@ Example 1:
 Input: [1, 2, 3, 4, 6], target=6
 Output: [1, 3]
 Explanation: The numbers at index 1 and 3 add up to 6: 2+4=6
+
+Time Complexity: O(n/2) but O(n)
+We ignore the consstant 
+
+Space Complexity: O(1)
+We require only two index or a pair of index number to proof that target_sum value exists within sorted array
     """
 
     pair = [-1,-1]
