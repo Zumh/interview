@@ -3,6 +3,8 @@ def merge_lists(list1:list[int], list2:list[int])->list[int]:
 
     # merge two sorted lists assuming both have same length
     # we going to merge them in the first list
+    # Time Complexity: O(m^2) if m > n otherise O(n^2)
+    # extra space is not used but extends which left with O(m)
     result = []
     left = 0
     right = 0
