@@ -21,3 +21,5 @@ def find_first_unique(nums:list[int])->int:
 
 nums = [9,2,3,2,6,6]
 print(find_first_unique(nums))
+nums = [4,5,1,2,0,4]
+print(find_first_unique(nums))
