@@ -29,6 +29,7 @@ def rearrange_twop(nums:list[int])->list[int]:
     If right is negative then switch left value with the right value.
     Time Complexity: O(n)
     Space Complexity: O(1)
+
     """
     left = 0
     right = 0
